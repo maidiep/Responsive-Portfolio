@@ -33,16 +33,7 @@ body {
     background-color: #666666;
     color: white;
     text-align: center;
-    padding: 5px;
 }
-/* 
- footer {
-     background-color: #666666;
-     padding: 10px;
-     text-align: center;
-     font-size: 15px;
-     color: white; 
- } */
  
  li {
     display: inline;
@@ -65,8 +56,8 @@ body {
  }
  
  #mainSection {
-     background-color: white;
-     height: 500px; 
+     background-color: white; 
+     max-height: 700;
      margin-top: 10px;
      clear: both;
      padding: 25px;
@@ -83,7 +74,7 @@ html {
 }
 
 h1 {
-    font-size: 3.5rem;
+    font-size: 4rem;
 }
 
 h2 {
@@ -104,7 +95,7 @@ p, li {
 @media screen and (min-width: 640px) {
     html { font-size: 15px;
     }
-    #section1 {
+    ul {
         float: left;
     }
 }
@@ -113,7 +104,11 @@ p, li {
     html {
         font-size: 17px;
 }
- }
+    ul {
+            float: left;
+        }
+    }
+
 @media screen and (min-width: 980px) {
     html {
         font-size: 19px;
